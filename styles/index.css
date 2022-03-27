@@ -2,7 +2,7 @@
     padding-top: 60px;
 }
 #search-bar-image {
-    background-image: url("https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg");
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
     background-position: center;
     height: 380px;
     background-size: cover;
@@ -16,7 +16,6 @@
     width: 28%;
     margin: 0 auto;
     text-align: center;
-    font-size: large;
     font-weight: 500;
     color: black;
     border: 3px solid transparent;
