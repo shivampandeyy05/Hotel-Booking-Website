@@ -36,7 +36,7 @@ a:active {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color:cornflowerblue;
+    background-color: rosybrown;
     position: fixed;
 }
 .modal-body {
@@ -62,7 +62,7 @@ a:active {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: rosybrown;
     position: fixed;
     bottom: 0;
     height: 65px;
