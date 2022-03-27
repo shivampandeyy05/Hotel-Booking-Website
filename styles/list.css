@@ -1,0 +1,108 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+#pills-tab {
+    justify-content: center;
+}
+#list-view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0 !important;
+}
+#map-view {
+    margin: 0 !important;
+}
+.hotel-cards {
+    margin: 2% 5%;
+    background-color: lightgrey;
+    height: 200px;
+    width: 40%;
+}
+.hotel-cards:hover {
+    background-color: rosybrown;
+}
+.hotel-card {
+    display: flex;
+    flex-direction: row;
+}
+.hotel-image {
+    height: 200px;
+    width: 250px;
+}
+.hotel-detail {
+    padding: 3%;
+}
+
+@media only screen and (max-width: 576px) {
+    .hotel-cards {
+        margin: 2% 5%;
+        background-color: lightgrey;
+        height: 200px;
+        width: 80%;
+    }
+    .list-view {
+        display: flex;
+        flex-direction: column;
+    }
+    .hotel-image {
+        height: 100px;
+        width: 150px;
+    }
+    #map-view {
+        height: 200px;
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .hotel-cards {
+        margin: 2% 5%;
+        background-color: lightgrey;
+        height: 200px;
+        width: 80%;
+    }
+    #list-view {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .hotel-image {
+        height: 200px;
+        width: 250px;
+    }
+    #map-view {
+        height: 200px;
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #list-view {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin: 0 !important;
+    }
+    #map-view {
+        margin: 0 !important;
+    }
+    .hotel-cards {
+        margin: 2% 5%;
+        background-color: lightgrey;
+        height: 200px;
+        width: 40%;
+    }
+    .hotel-cards:hover {
+        background-color: rosybrown;
+    }
+    .hotel-card {
+        display: flex;
+        flex-direction: row;
+    }
+    .hotel-image {
+        height: 200px;
+        width: 250px;
+    }
+}

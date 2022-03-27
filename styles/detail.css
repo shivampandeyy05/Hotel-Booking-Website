@@ -1,0 +1,108 @@
+#details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 2%;
+}
+#image-div {
+    width: 75%;
+}
+#form-div {
+    height: 400px;
+    width: 25%;
+    padding: 0 2%;
+    border-left: 1px solid black;
+}
+#form-flex {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.labels {
+    float: left;
+}
+.inputs {
+    float: right;
+    width: 60%;
+}
+#submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+}
+#description-div {
+    padding: 1% 4% 0 4%;
+}
+#hotel-image {
+    size: contain;
+    max-height: 350px;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.headings {
+    font-weight: bold;
+    font-family: cursive;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: cornflowerblue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: cornflowerblue;
+}
+
+@media only screen and (max-width: 576px) {
+    #details {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        border: 1px solid black;
+        margin: 0 2%;
+    }
+    #form-div {
+        height: 400px;
+        width: 100%;
+        padding: 0 2%;
+        margin-top: 25px;
+        border: 1px solid black;
+    }
+    #description-div {
+        margin-top: 450px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #image-div {
+        width: 60%;
+    }
+    #form-div {
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #image-div {
+        width: 75%;
+    }
+    #form-div {
+        height: 400px;
+        width: 25%;
+        padding: 0 2%;
+        border-left: 1px solid black;
+    }
+}
