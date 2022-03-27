@@ -3,7 +3,7 @@
 
 <h1>Listing page.</h1>
   
-<a href="https://ibb.co/N9Rn4RX"><img src="https://i.ibb.co/jytZptd/Screenshot-20.png" alt="Screenshot-20" border="0"></a><br />
+<a href="https://ibb.co/zVBKq9R"><img src="https://i.ibb.co/8gfF1v5/Screenshot-23.png" alt="Screenshot-23" border="0"></a>
 
 <h1>Details page.</h1>
   
